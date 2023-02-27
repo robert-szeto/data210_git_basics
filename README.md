@@ -24,3 +24,14 @@ rm - deletes a specified file. To delete a directory,  use the flags -rf. Must b
 pwd - returns the current working directory.
 
 touch - creates a new file without needing to open it. touch newfilename
+
+Git Commands:
+
+status - shows status of files in current directory compared to the repository. Files in red have been changed and these changes have not been added. Files in green have been changed
+and these changes have been added.
+
+add - Adds the changes in the given file(s) to the commit. can use the argument . to select all files.
+
+commit - commits any changes made to the local repository. Flags -m - adds a message to the commit
+
+push - pushes any local commits from your local repository to the central repository. 
