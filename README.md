@@ -1,6 +1,7 @@
 # data210_git_basics
 
 Hello this change was made on my local machine.
+Hello this change was mad on github.
 
 Linux/Bash commands:
 ls - lists files in current directory. Flags; -a - shows hidden files. -l - shows more detailed info
