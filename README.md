@@ -3,7 +3,7 @@
 Hello this change was made on my local machine.
 Hello this change was mad on github.
 
-#Git Commands:
+# Git Commands:
 clone - Creates a copy of the project from the given github link in the current directory. Usage - git clone github_link
 
 status - Shows status of files in current directory compared to the repository. Files in red have been changed and these changes have not been added to the commit. 

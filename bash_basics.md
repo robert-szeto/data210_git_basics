@@ -1,4 +1,4 @@
-#Linux/Bash commands:
+# Linux/Bash commands:
 ls - Lists files in current directory. Flags; -a - shows hidden files. -l - shows more detailed info
 
 cd - Changes directory using the given path. ~ for the home directory. / for the root directory. Give an argument starting with / for relative path e.g. cd /this_dir/that_dir
