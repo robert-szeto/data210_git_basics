@@ -2,7 +2,6 @@
 
 Hello this change was made on my local machine.
 Hello this change was mad on github.
-Hello this change was made on my local machine on the dev branch only.
 
 Linux/Bash commands:
 ls - lists files in current directory. Flags; -a - shows hidden files. -l - shows more detailed info
@@ -27,13 +26,18 @@ pwd - returns the current working directory.
 
 touch - creates a new file without needing to open it. touch newfilename
 
-Git Commands:
+#Git Commands:
+clone - Creates a copy of the project from the given github link in the current directory. Usage - git clone github_link
 
-status - shows status of files in current directory compared to the repository. Files in red have been changed and these changes have not been added. Files in green have been changed
-and these changes have been added.
+status - Shows status of files in current directory compared to the repository. Files in red have been changed and these changes have not been added to the commit. 
+Files in green have been changed and these changes have been added to the commit. Usage - git status
 
-add - Adds the changes in the given file(s) to the commit. can use the argument . to select all files.
+add - Adds the changes in the given file(s) to the commit. Can use the argument . to select all files. Usage: git add file_names
 
-commit - commits any changes made to the local repository. Flags -m - adds a message to the commit
+commit - Commits any changes made to the local repository. Flags -m - adds a message to the commit. Usage: git commit -m "Commit message"
 
-push - pushes any local commits from your local repository to the central repository. 
+push - Pushes any local commits from your local repository to the central repository. 
+
+checkout - Changes the current branch. Flags -b - creates a new branch with the given name. Usage: git checkout -b dev
+
+pull - Pulls changes from the central repository to the current local repository.
